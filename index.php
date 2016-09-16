@@ -38,7 +38,7 @@ if(isset($update->message->text)){
       'reply_markup'=>json_encode([
         'inline_keyboard'=>[
           [
-            ['text'=>'Time ⚡️','callback_data'=>'time']
+            ['text'=>'زمان ⚡️','callback_data'=>'time']
           ]
         ]
       ])
@@ -57,11 +57,10 @@ if(isset($update->message->text)){
 کج نویسی متن
 /code [متن]
 کد نویسی متن
-/info
-دریافت مشخصات شما
 
 
-Powered by @king_ch
+
+ساخته شده توسط تله کینگ
 ",
       'parse_mode'=>'HTML',
       'reply_markup'=>json_encode([
