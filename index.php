@@ -1,7 +1,7 @@
 <?php
 ob_start();
-define('API_KEY','298303012:AAEDSaJ43q8ubXBpdIQah7bIGlNjyU7ONS4');
-$admin = '68747297';
+define('API_KEY','توکن'
+$admin = 'ایدی ادمین'
 include("telegram.php");
 $telegram = new Telegram(API_KEY);
 function httpt($method,$datas=[]){
